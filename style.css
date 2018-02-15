@@ -1,0 +1,145 @@
+/*
+Theme Name: SRIC One Page
+Author: Ian McClellan
+Description: SRIC template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+.case-desc a {
+    font-size: small ;
+}
+
+#accordion { /* Divider for FAQ questions */
+    border-bottom: 1px solid #394EFF;
+}
+.faq-q a, .faq-q a:focus, .faq-q a:hover, .faq-q a:active{ /* Strips default link styling from FAQ links */
+    color: inherit;
+    text-decoration: none;
+}
+form button { /* Over riding the form styling here is a nightmare */
+    -webkit-appearance: none;
+    background-color: #F9F9F6;
+    box-shadow: inset 0 -6px rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 8px;
+    color: #394EFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 1em auto 1em;
+    max-width: 288px;
+    padding: 15px 16px 17px;
+    width: 100%;
+}
+.about {
+    color: #394EFF;
+}
+.case-desc { /* Past and present cases description styling */
+    background-color: #ffea39;
+    color: black;
+}
+
+.card-outline-secondary {
+    background: none;
+    border-color: #ccc;
+}
+.double-low-clearance{
+    padding-top: 24px;
+}
+.expo {
+    font-weight: 600;
+}
+.faq-q {
+    border-top: 1px solid #394EFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: .5rem;
+    padding-top: .5rem;
+}
+.footer {
+    background-color:#394EFF;
+    padding: 1rem 2rem;
+}
+.header{
+    color: white;
+    background-color:#394EFF;
+    padding: 6rem 2rem;
+}
+.hr-c { /* .hr-c, -w add bootstrap dividers of different colors */
+    border-top: 2px solid #394EFF;
+}
+.hr-w {
+    border-top: 2px solid #FFF;
+}
+.unmargin {
+    margin: 0 -15px;
+}
+.unpad {
+    padding: 0;
+}
+.mw-sans {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.nav-link{
+    padding: .5em 0;
+    color: #f2f2f2;
+}
+.navbar {
+    background-color: #394EFF;
+}
+.low-clearance { /* Overrides default padding on jumbotron to relieve awkward spacing */
+    padding-top: 48px;
+}
+.people h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.people .person {
+    margin-bottom: 2rem;
+}
+#proposal .sec-title {
+    display: inline-block;
+}
+#proposal input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #f2f2f2;
+}
+.projects img {
+    margin: 0;
+}
+.header-top {
+    min-height: 95vh; /* Fills the viewer with an appealing solid blue at top header */
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f2f2f2 !important;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+    color: #f2f2f2 !important;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+    color: #f2f2f2 !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+    color: #f2f2f2 !important;
+}
+.navbar-toggler {
+    display: inline-flex;
+    color: white;
+}
+.text-info{ /* old Bootstrap coloring */
+    color: #5bc0de!important
+}
+
+@media (max-width: 500px) { /* Responsive font-size in top header */
+    .display-2 {
+        font-size: 3rem;
+    }
+}
+
+.case-desc small {
+    font-size: small;
+    line-height: 1 !important;
+}
